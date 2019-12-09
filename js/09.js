@@ -1,12 +1,12 @@
 // Задать пользователю 3 вопроса. За каждый правильный 
 // ответ начисляется 2 балла. После вопросов выведите пользователю количество набранных баллов.
-let first = prompt("how much 2+2?");
-let second = prompt("how much 5+5?");
-let third = prompt("how much 9+3?");
+let first = +prompt("how much 2+2?");
+let second = +prompt("how much 5+5?");
+let third = +prompt("how much 9+3?");
 
 let count = 0;
-let buf = " ";
-let balls;
+let buf = 0;
+let balls = 0;
 
 switch (first) {
     case 4:

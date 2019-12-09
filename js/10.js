@@ -9,9 +9,9 @@ let months = date.slice(3, 5);
 let years = date.slice(6);
 
 
-if (days > 31) {
-    mounths + 1;
-}
-if (months > 12) {
-    years + 1;
-}
+// if (days > 31) {
+//     mounths + 1;
+// }
+// if (months > 12) {
+//     years + 1;
+// }
